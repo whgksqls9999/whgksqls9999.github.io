@@ -1,0 +1,110 @@
+@font-face{
+    font-family: '이쁜폰트';
+    src : url(./NanumSquareR.woff)
+}
+/* .test{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+} */
+.flex-container{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: pink;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+.flex-item {
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+.flex-container :nth-child(3){
+    text-align: right;
+}
+
+body{
+    font-family: '이쁜폰트';
+    transform: rotate(0.03deg);
+}
+.main-background{
+    width: 100%;
+    height: 500px;
+    background-image: url(./shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* filter: brightness(100%); */   
+}       
+.main-title{
+    color: white;
+    font-size: 40px;
+}
+.introduction{
+    color: white;
+}
+.container{
+    padding-left: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+.move a{
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+}
+.move{
+    padding: 10px;
+    font-family: nanumsquare;
+    border: none;
+    box-shadow: 2px 2px 2px;
+    border-radius: 5px;
+    position: relative;
+    top: 100px;
+}
+.box{
+    width: 70%;
+    max-width: 600px;
+    height: auto;
+    background-color: gray;
+    position: relative;
+    bottom: 50px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.text-input{
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1200px){
+    .main-title{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main-title{
+        font-size:20px;
+    }
+}
+
+progress::-webkit-progress-bar{
+    appearance: none;
+    color: black;
+    border-radius: 5px;
+}
+
+progress::-webkit-progress-value{
+    appearance: none;
+    color: red;
+}
