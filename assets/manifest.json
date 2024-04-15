@@ -1,0 +1,18 @@
+{
+    "background_color": "#ffffff",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "whgksqls9999.github",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "whgksqls9999.github",
+    "start_url": "/",
+    "theme_color": "#ffffff",
+    "icons": [
+        {
+            "src": "/favicon.ico",
+            "type": "image/x-icon"
+        }
+    ],
+    "description": "공간은 한 눈에, 예약은 한 번에! 공간 예약 서비스 제작 플랫폼 찜꽁입니다!"
+}
