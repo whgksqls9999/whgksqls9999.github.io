@@ -3,7 +3,7 @@
     "short_name": "whgksqls9999.github",
     "dir": "ltr",
     "lang": "ko",
-    "display": "standalone",
+    "display": "fullscreen",
     "orientation": "landscape",
     "start_url": "/",
     "background_color": "#ffffff",
@@ -62,6 +62,12 @@
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any"
+        },
+        {
+            "src": "maskable_icon_x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
         },
         {
             "src": "/favicon.ico",
