@@ -131,5 +131,5 @@
   "scope": "/",
   "description": "테스팅",
   "id": "whgksqls9999.github",
-  "prefer_related_applications": "true"
+  "prefer_related_applications": true
 }
