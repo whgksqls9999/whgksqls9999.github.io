@@ -1,6 +1,6 @@
 {
-    "name": "whgksqls9999.github",
-    "short_name": "whgksqls9999.github",
+    "name": "bridgetalk",
+    "short_name": "bridgetalk",
     "dir": "ltr",
     "lang": "ko",
     "display": "fullscreen",
@@ -75,7 +75,7 @@
         }
     ],
     "scope": "/",
-    "description": "테스팅",
-    "id": "whgksqls9999.github",
+    "description": "bridgetalk",
+    "id": "bridgetalk",
     "prefer_related_applications": true
 }
